@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#447788"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:paddingHorizontal="10dp">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Hello World!" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="Ввод пароля"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Кнопка" />
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textColor="#990077"
+        android:text="Запомнить устройство"
+        android:textSize="16sp"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Использовать cookies" />
+
+    <ToggleButton
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="@string/material_motion_easing_linear"
+        android:textOff="Включить автосохранение"
+        android:textOn="Отключить автосохранение" />
+
+</LinearLayout>
